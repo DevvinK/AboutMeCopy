@@ -14,13 +14,29 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.aboutmecopy.SecondActivity"
+            android:name="com.example.aboutmecopy.HomeActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.aboutmecopy.ImportantActivity"
+            android:label="@string/title_activity_important" >
+        </activity>
+        <activity
+            android:name="com.example.aboutmecopy.InterestsActivity"
+            android:label="@string/title_activity_interests" >
+        </activity>
+        <activity
+            android:name="com.example.aboutmecopy.MeActivity"
+            android:label="@string/title_activity_me" >
+        </activity>
+        <activity
+            android:name="com.example.aboutmecopy.NonComputerActivity"
+            android:label="@string/title_activity_non_computer" >
         </activity>
     </application>
 

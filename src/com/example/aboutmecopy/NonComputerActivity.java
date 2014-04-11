@@ -11,14 +11,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
 
-public class SecondActivity extends ActionBarActivity
+public class NonComputerActivity extends ActionBarActivity
 {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_second);
+		setContentView(R.layout.activity_non_computer);
 
 		if (savedInstanceState == null)
 		{
@@ -31,7 +31,7 @@ public class SecondActivity extends ActionBarActivity
 	{
 
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.second, menu);
+		getMenuInflater().inflate(R.menu.non_computer, menu);
 		return true;
 	}
 
@@ -62,7 +62,7 @@ public class SecondActivity extends ActionBarActivity
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
 		{
-			View rootView = inflater.inflate(R.layout.fragment_second, container, false);
+			View rootView = inflater.inflate(R.layout.fragment_non_computer, container, false);
 			return rootView;
 		}
 	}

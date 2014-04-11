@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/family"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context="com.example.aboutmecopy.ImportantActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <Button
+            android:id="@+id/Home"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginRight="@dimen/right_margin"
+            android:background="@color/Button"
+            android:text="Home"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/Me"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginRight="@dimen/right_margin"
+            android:background="@color/Button"
+            android:text="Me"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/Interests"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginRight="@dimen/right_margin"
+            android:background="@color/Button"
+            android:text="Interests"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/Non_Comomputer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginRight="@dimen/right_margin"
+            android:background="@color/Button"
+            android:text="Non Computer"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:text="To me, an important thing to always look out for is family. They are always going to be there for you but the relationship with them can still be broken. If you ruin your relationship with your family, they won’t really be there for you and it would be a very long time before you can reestablish that connection. If you keep the connection going strong then whey would help you in bad times and always try to take of you through all the hard troubles you go through."
+        android:textColor="@color/Black"
+        android:textSize="@dimen/TextSize" />
+
+</LinearLayout>
